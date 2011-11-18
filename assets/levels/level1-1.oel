@@ -1,0 +1,83 @@
+<level>
+  <width>960</width>
+  <height>640</height>
+  
+  <fondo set="fondo">
+    <tile tx="0" ty="0" x="0" y="0"/>
+  </fondo>
+  
+  <piso_pared set="pared_piso">
+    <tile tx="0" ty="0" x="0" y="0"/>
+    <tile tx="0" ty="0" x="0" y="40"/>
+    <tile tx="0" ty="0" x="0" y="80"/>
+    <tile tx="0" ty="0" x="0" y="120"/>
+    <tile tx="0" ty="0" x="0" y="160"/>
+    <tile tx="0" ty="0" x="0" y="200"/>
+    <tile tx="0" ty="0" x="0" y="240"/>
+    <tile tx="0" ty="0" x="0" y="280"/>
+    <tile tx="0" ty="0" x="0" y="320"/>
+    <tile tx="0" ty="0" x="0" y="360"/>
+    <tile tx="0" ty="0" x="0" y="400"/>
+    <tile tx="0" ty="0" x="0" y="440"/>
+    <tile tx="0" ty="0" x="0" y="480"/>
+    <tile tx="0" ty="0" x="0" y="520"/>
+    <tile tx="0" ty="0" x="0" y="560"/>
+    <tile tx="0" ty="0" x="0" y="600"/>
+    <tile tx="0" ty="0" x="40" y="600"/>
+    <tile tx="0" ty="0" x="80" y="600"/>
+    <tile tx="0" ty="0" x="120" y="600"/>
+    <tile tx="0" ty="0" x="160" y="600"/>
+    <tile tx="0" ty="0" x="200" y="600"/>
+    <tile tx="0" ty="0" x="240" y="600"/>
+    <tile tx="0" ty="0" x="280" y="600"/>
+    <tile tx="0" ty="0" x="320" y="600"/>
+    <tile tx="0" ty="0" x="360" y="600"/>
+    <tile tx="0" ty="0" x="400" y="600"/>
+    <tile tx="0" ty="0" x="440" y="600"/>
+    <tile tx="0" ty="0" x="480" y="600"/>
+    <tile tx="0" ty="0" x="520" y="600"/>
+    <tile tx="0" ty="0" x="560" y="600"/>
+    <tile tx="0" ty="0" x="600" y="600"/>
+    <tile tx="0" ty="0" x="640" y="600"/>
+    <tile tx="0" ty="0" x="680" y="600"/>
+    <tile tx="0" ty="0" x="720" y="600"/>
+    <tile tx="0" ty="0" x="760" y="600"/>
+    <tile tx="0" ty="0" x="800" y="600"/>
+    <tile tx="0" ty="0" x="840" y="600"/>
+    <tile tx="0" ty="0" x="880" y="600"/>
+    <tile tx="0" ty="0" x="920" y="600"/>
+    <tile tx="0" ty="0" x="920" y="560"/>
+    <tile tx="0" ty="0" x="920" y="520"/>
+    <tile tx="0" ty="0" x="920" y="480"/>
+    <tile tx="0" ty="0" x="960" y="480"/>
+    <tile tx="0" ty="0" x="960" y="440"/>
+    <tile tx="0" ty="0" x="920" y="440"/>
+    <tile tx="0" ty="0" x="920" y="400"/>
+    <tile tx="0" ty="0" x="920" y="360"/>
+    <tile tx="0" ty="0" x="920" y="320"/>
+    <tile tx="0" ty="0" x="920" y="280"/>
+    <tile tx="0" ty="0" x="920" y="240"/>
+    <tile tx="0" ty="0" x="920" y="200"/>
+    <tile tx="0" ty="0" x="920" y="0"/>
+    <tile tx="0" ty="0" x="920" y="40"/>
+    <tile tx="0" ty="0" x="920" y="80"/>
+    <tile tx="0" ty="0" x="920" y="120"/>
+    <tile tx="0" ty="0" x="920" y="160"/>
+    <tile tx="0" ty="0" x="120" y="520"/>
+    <tile tx="0" ty="0" x="160" y="520"/>
+    <tile tx="0" ty="0" x="240" y="480"/>
+    <tile tx="0" ty="0" x="280" y="480"/>
+    <tile tx="0" ty="0" x="360" y="440"/>
+    <tile tx="0" ty="0" x="400" y="440"/>
+    <tile tx="0" ty="0" x="480" y="400"/>
+    <tile tx="0" ty="0" x="520" y="400"/>
+    <tile tx="0" ty="0" x="600" y="360"/>
+    <tile tx="0" ty="0" x="640" y="360"/>
+    <tile tx="0" ty="0" x="720" y="320"/>
+    <tile tx="0" ty="0" x="760" y="320"/>
+  </piso_pared>
+  
+  <objetos>
+    <palyer x="40" y="560"/>
+  </objetos>
+</level>

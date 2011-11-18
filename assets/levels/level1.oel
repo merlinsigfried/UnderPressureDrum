@@ -1,0 +1,79 @@
+<level>
+  <width>640</width>
+  <height>480</height>
+  <piso_pared set="pared_piso">
+    <tile tx="0" ty="0" x="0" y="0"/>
+    <tile tx="0" ty="0" x="0" y="40"/>
+    <tile tx="0" ty="0" x="0" y="80"/>
+    <tile tx="0" ty="0" x="0" y="120"/>
+    <tile tx="0" ty="0" x="0" y="160"/>
+    <tile tx="0" ty="0" x="0" y="200"/>
+    <tile tx="0" ty="0" x="0" y="240"/>
+    <tile tx="0" ty="0" x="0" y="280"/>
+    <tile tx="0" ty="0" x="0" y="320"/>
+    <tile tx="0" ty="0" x="0" y="360"/>
+    <tile tx="0" ty="0" x="0" y="400"/>
+    <tile tx="0" ty="0" x="0" y="440"/>
+    <tile tx="0" ty="0" x="40" y="440"/>
+    <tile tx="0" ty="0" x="80" y="440"/>
+    <tile tx="0" ty="0" x="120" y="440"/>
+    <tile tx="0" ty="0" x="160" y="440"/>
+    <tile tx="0" ty="0" x="200" y="440"/>
+    <tile tx="0" ty="0" x="240" y="440"/>
+    <tile tx="0" ty="0" x="280" y="440"/>
+    <tile tx="0" ty="0" x="320" y="440"/>
+    <tile tx="0" ty="0" x="360" y="440"/>
+    <tile tx="0" ty="0" x="400" y="440"/>
+    <tile tx="0" ty="0" x="440" y="440"/>
+    <tile tx="0" ty="0" x="480" y="440"/>
+    <tile tx="0" ty="0" x="520" y="440"/>
+    <tile tx="0" ty="0" x="560" y="440"/>
+    <tile tx="0" ty="0" x="640" y="440"/>
+    <tile tx="0" ty="0" x="600" y="440"/>
+    <tile tx="0" ty="0" x="600" y="400"/>
+    <tile tx="0" ty="0" x="600" y="360"/>
+    <tile tx="0" ty="0" x="600" y="320"/>
+    <tile tx="0" ty="0" x="600" y="280"/>
+    <tile tx="0" ty="0" x="600" y="240"/>
+    <tile tx="0" ty="0" x="600" y="200"/>
+    <tile tx="0" ty="0" x="600" y="160"/>
+    <tile tx="0" ty="0" x="600" y="120"/>
+    <tile tx="0" ty="0" x="600" y="80"/>
+    <tile tx="0" ty="0" x="600" y="40"/>
+    <tile tx="0" ty="0" x="600" y="0"/>
+    <tile tx="0" ty="0" x="560" y="0"/>
+    <tile tx="0" ty="0" x="520" y="0"/>
+    <tile tx="0" ty="0" x="480" y="0"/>
+    <tile tx="0" ty="0" x="440" y="0"/>
+    <tile tx="0" ty="0" x="400" y="0"/>
+    <tile tx="0" ty="0" x="360" y="0"/>
+    <tile tx="0" ty="0" x="320" y="0"/>
+    <tile tx="0" ty="0" x="280" y="0"/>
+    <tile tx="0" ty="0" x="240" y="0"/>
+    <tile tx="0" ty="0" x="200" y="0"/>
+    <tile tx="0" ty="0" x="160" y="0"/>
+    <tile tx="0" ty="0" x="120" y="0"/>
+    <tile tx="0" ty="0" x="80" y="0"/>
+    <tile tx="0" ty="0" x="40" y="0"/>
+    <tile tx="0" ty="0" x="560" y="280"/>
+    <tile tx="0" ty="0" x="520" y="280"/>
+  </piso_pared>
+  <objetos>
+    <palyer x="120" y="400"/>
+    <wbox_5x1 x="40" y="160"/>
+    <enemy x="400" y="200"/>
+    <wbox_5x1 x="80" y="320"/>
+    <wbox_1x1 x="200" y="360"/>
+    <wbox_1x1 x="200" y="400"/>
+    <enemy x="160" y="120"/>
+    <wbox_1x1 x="80" y="400"/>
+    <wbox_1x1 x="80" y="360"/>
+    <wbox_5x1 x="400" y="240"/>
+    <wbox_1x3 x="480" y="320"/>
+    <wbox_1x1 x="480" y="280"/>
+    <wbox_1x5 x="40" y="200"/>
+    <wbox_1x1 x="40" y="400"/>
+    <wbox_1x3 x="200" y="200"/>
+    <wbox_1x1 x="520" y="200"/>
+  </objetos>
+</level>

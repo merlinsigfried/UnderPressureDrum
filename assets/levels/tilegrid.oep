@@ -1,0 +1,27 @@
+<project>
+	<name>Cutjutsu</name>
+	<settings>
+		<defaultWidth>640</defaultWidth>
+		<defaultHeight>480</defaultHeight>
+	</settings>
+	
+	<tilesets>
+		<tileset name="pared_piso" image="pared_piso.png" tileWidth="40" tileHeight="40" />
+	</tilesets>
+	
+	<objects>
+		<object name="palyer" image="player.png" width="40" height="40" limit="1" />
+		<object name="enemy" image="enemy.png" width="40" height="40" />
+		<object name="wbox_1x1" image="wbox_1x1.png" width="40" height="40" />
+		<object name="wbox_1x3" image="wbox_1x3.png" width="40" height="120" />
+		<object name="wbox_1x5" image="wbox_1x5.png" width="40" height="200" />
+		<object name="wbox_3x1" image="wbox_3x1.png" width="120" height="40" />
+		<object name="wbox_5x1" image="wbox_5x1.png" width="200" height="40" />
+	</objects>
+	
+	<layers>
+		<tiles name="piso_pared" gridSize="40" />
+		<objects name="objetos" gridSize="40" />
+	</layers>
+	
+</project>
