@@ -14,7 +14,9 @@ package com.drum.game.entities
 	
 	public class GuyBrush extends Player
 	{
-		[Embed (source='assets/images/player.png')]
+		public static const TYPE:String = "GUY";
+		
+		[Embed (source = '/assets/images/player.png')]
 		private var PLAYER_SPRITE:Class;
 		
 		//Indica el numero minimo de pixeles/frame para considerar que hay movimiento

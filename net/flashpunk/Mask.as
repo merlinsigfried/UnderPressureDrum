@@ -1,5 +1,6 @@
 ﻿package net.flashpunk
 {
+	import flash.display.Graphics;
 	import flash.utils.Dictionary;
 	import flash.utils.getDefinitionByName;
 	import flash.utils.getQualifiedClassName;
@@ -59,14 +60,20 @@
 		}
 		
 		/** @private Assigns the mask to the parent. */
-		internal function assignTo(parent:Entity):void
+		public function assignTo(parent:Entity):void
 		{
 			this.parent = parent;
-			if (parent) update();
+			if (!list && parent) update();
 		}
 		
 		/** @private Updates the parent's bounds for this mask. */
 		protected function update():void
+		{
+			
+		}
+		
+		/** Used to render debug information in console. */
+		public function renderDebug(g:Graphics):void
 		{
 			
 		}

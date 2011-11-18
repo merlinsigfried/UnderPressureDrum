@@ -2,8 +2,11 @@ package com.drum.game.screens
 {
 	import com.drum.base.SEntityFactory;
 	import com.drum.base.screens.DrumEngine;
+	import com.drum.game.entities.Azael;
+	import com.drum.game.entities.Concrete;
 	import com.drum.game.entities.GuyBrush;
 	import com.drum.game.worlds.MainWorld;
+	import com.drum.game.worlds.BaseWorld;
 	
 	import net.flashpunk.Engine;
 	
@@ -19,7 +22,7 @@ package com.drum.game.screens
 		{
 			super.init();
 			this.registerEntities();
-			var world:MainWorld = new MainWorld();
+			var world:BaseWorld = new BaseWorld();
 			world.enableConsole();
 			this.addWorld(world);
 		}
@@ -27,7 +30,8 @@ package com.drum.game.screens
 		private function registerEntities():void
 		{
 			var factory:SEntityFactory = SEntityFactory.Instance;
-			factory.registerClass("GUY",GuyBrush);
+			factory.registerClass(Azael.TYPE, Azael);
+			factory.registerClass(Concrete.TIPO, Concrete);
 		}
 	}
 }
