@@ -5,7 +5,6 @@ package com.drum.game.screens
 	import com.drum.game.entities.Azael;
 	import com.drum.game.entities.Concrete;
 	import com.drum.game.entities.GuyBrush;
-	import com.drum.game.worlds.MainWorld;
 	import com.drum.game.worlds.BaseWorld;
 	
 	import net.flashpunk.Engine;

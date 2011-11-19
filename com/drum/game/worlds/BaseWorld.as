@@ -14,16 +14,19 @@ package com.drum.game.worlds
 		public function BaseWorld() 
 		{
 			super();
-			manejadorLevels = new ManejadorLevels(this, 1);
-			manejadorLevels.siguienteNivel();
 		}
 		
 		override public function update():void 
 		{
 			super.update();
-			
 		}
 		
+		override public function begin():void
+		{
+			super.begin();
+			manejadorLevels = new ManejadorLevels(this, 1);
+			manejadorLevels.siguienteNivel();
+		}
 	}
 
 }
