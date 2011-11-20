@@ -1,11 +1,16 @@
 package com.drum.game.entities 
 {
 	import com.drum.base.entities.Player;
+	import com.drum.game.entities.weapons.DeathRay;
+	import com.drum.game.worlds.Level;
+	
 	import flash.geom.Point;
+	
+	import net.flashpunk.FP;
 	import net.flashpunk.graphics.Image;
 	import net.flashpunk.utils.Input;
 	import net.flashpunk.utils.Key;
-	import com.drum.game.worlds.Level
+
 	/**
 	 * ...
 	 * @author BTG
@@ -59,13 +64,20 @@ package com.drum.game.entities
 			if (Input.check(Key.A)) {
 				this.velocity_.x = -top_speed_;
 				this.img.flipped = true;
+				this.my_weapon_.aim(new Point(-1,0));
 				_moverse = true;
 
 			}
 			if (Input.check(Key.D)) {
+				this.my_weapon_.aim(new Point(1,0));
 				this.velocity_.x = top_speed_;
 				this.img.flipped = false;
 				_moverse = true;
+			}
+			//PRUEBA DE ARMAS
+			if (Input.check(Key.CONTROL))
+			{
+				this.my_weapon_.fire();
 			}
 			
 			//aplicar gravedad
@@ -83,8 +95,7 @@ package com.drum.game.entities
 			if (! revisarColisionesY()) {
 				this.y += velocity_.y;
 			}
-			
-			
+
 		}
 		
 		public function revisarColisionesX():Boolean {
@@ -112,6 +123,40 @@ package com.drum.game.entities
 			}
 			falling = true;
 			return false;
+		}
+		
+		/**
+		 * PRUEBA DE ARMAS
+		 * */
+		private var my_weapon_:DeathRay = null;
+		public override function added():void
+		{
+			//Añadir el arma
+			super.added();
+			this.my_weapon_ = new DeathRay(this.x,this.y+this.height/2);
+			FP.world.add(this.my_weapon_);
+		}
+		
+		public override function removed():void
+		{
+			super.removed();
+			FP.world.remove(this.my_weapon_);
+		}
+		
+		public override function set x(val:Number):void
+		{
+			super.x = val;
+			if (this.my_weapon_ != null)
+			{
+				this.my_weapon_.x = val + this.width/2;
+			}
+		}
+		
+		public override function set y(val:Number):void
+		{
+			super.y=val;
+			if (this.my_weapon_!=null)
+				this.my_weapon_.y=val+this.height/2;
 		}
 		
 	}

@@ -1,5 +1,7 @@
 package com.drum.base.entities
 {
+	import flash.errors.IllegalOperationError;
+	
 	import net.flashpunk.Graphic;
 	import net.flashpunk.Mask;
 	
@@ -15,7 +17,7 @@ package com.drum.base.entities
 			super(x, y, graphic, mask);
 		}
 		
-		public function get xml_label():String
+		public override function get xml_label():String
 		{
 			throw new IllegalOperationError("Metodo abstracto, no debe instanciar esta clase");
 		}

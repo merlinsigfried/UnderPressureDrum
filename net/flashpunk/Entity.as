@@ -24,15 +24,9 @@ package net.flashpunk
 		 */
 		public var collidable:Boolean = true;
 		
-		/**
-		 * X position of the Entity in the World.
-		 */
-		public var x:Number = 0;
+		private var x_:Number = 0;
 		
-		/**
-		 * Y position of the Entity in the World.
-		 */
-		public var y:Number = 0;
+		private var y_:Number = 0;
 		
 		/**
 		 * Width of the Entity's hitbox.
@@ -751,6 +745,39 @@ package net.flashpunk
 		}
 		
 		public function getClass ():Class { return _class; }
+
+		/**
+		 * X position of the Entity in the World.
+		 */
+		public function get x():Number
+		{
+			return x_;
+		}
+
+		/**
+		 * @private
+		 */
+		public function set x(value:Number):void
+		{
+			x_ = value;
+		}
+
+		/**
+		 * Y position of the Entity in the World.
+		 */
+		public function get y():Number
+		{
+			return y_;
+		}
+
+		/**
+		 * @private
+		 */
+		public function set y(value:Number):void
+		{
+			y_ = value;
+		}
+
 		
 		// Entity information.
 		/** @private */ internal var _class:Class;

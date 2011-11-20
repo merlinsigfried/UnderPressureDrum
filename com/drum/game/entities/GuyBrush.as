@@ -94,5 +94,7 @@ package com.drum.game.entities
 			//RMultiplicamos la velocidad por el rozamiento
 			this.velocity_.x = this.velocity_.x * this.damping_;
 		}
+		
+		
 	}
 }
